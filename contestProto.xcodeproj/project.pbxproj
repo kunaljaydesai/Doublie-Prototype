@@ -21,6 +21,7 @@
 		9A45B7BD19E76CF4001BD1A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A45B79F19E76CF4001BD1A5 /* UIKit.framework */; };
 		9A45B7C519E76CF4001BD1A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B7C319E76CF4001BD1A5 /* InfoPlist.strings */; };
 		9A45B7C719E76CF4001BD1A5 /* contestProtoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A45B7C619E76CF4001BD1A5 /* contestProtoTests.m */; };
+		9AA9E85A19F075B600514BB9 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9E85919F075B600514BB9 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9A45B7C219E76CF4001BD1A5 /* contestProtoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "contestProtoTests-Info.plist"; sourceTree = "<group>"; };
 		9A45B7C419E76CF4001BD1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A45B7C619E76CF4001BD1A5 /* contestProtoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contestProtoTests.m; sourceTree = "<group>"; };
+		9AA9E85819F075B600514BB9 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		9AA9E85919F075B600514BB9 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				9A45B7AA19E76CF4001BD1A5 /* AppDelegate.h */,
 				9A45B7AB19E76CF4001BD1A5 /* AppDelegate.m */,
 				9A45B7AD19E76CF4001BD1A5 /* Main.storyboard */,
+				9AA9E85819F075B600514BB9 /* ViewController2.h */,
+				9AA9E85919F075B600514BB9 /* ViewController2.m */,
 				9A45B7B019E76CF4001BD1A5 /* ViewController.h */,
 				9A45B7B119E76CF4001BD1A5 /* ViewController.m */,
 				9A45B7B319E76CF4001BD1A5 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A45B7B219E76CF4001BD1A5 /* ViewController.m in Sources */,
+				9AA9E85A19F075B600514BB9 /* ViewController2.m in Sources */,
 				9A45B7AC19E76CF4001BD1A5 /* AppDelegate.m in Sources */,
 				9A45B7A819E76CF4001BD1A5 /* main.m in Sources */,
 			);
