@@ -16,12 +16,14 @@
 @synthesize imageView;
 @synthesize likeCount;
 @synthesize likeButton;
-NSString *imageURLz = @"http://www.isportstimes.com/data/images/full/2012/05/11/1665_kobe-bryant-scored-points-in-the-lakers-game-loss.jpg";
+NSString *imageURLz = @"http://cdn.idolator.com/wp-content/uploads/2010/07/pole.jpg";
 - (void)viewDidLoad {
+    [self sendRequest:@"0"];
     [super viewDidLoad];
     NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURLz]];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = [UIImage imageWithData:imageData];
-    [self sendRequest:@"0"];
+    
     // Do any additional setup after loading the view.
 }
 

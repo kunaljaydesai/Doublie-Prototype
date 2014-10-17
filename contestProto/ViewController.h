@@ -13,5 +13,6 @@
 - (IBAction)like:(id)sender;
 @property (strong, nonatomic) IBOutlet UILabel *likeCount;
 @property (strong, nonatomic) IBOutlet UIButton *likeButton;
+@property (strong, nonatomic) IBOutlet UILabel *captionLabel;
 
 @end

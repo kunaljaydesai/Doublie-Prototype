@@ -16,15 +16,18 @@
 @synthesize imageView;
 @synthesize likeCount;
 @synthesize likeButton;
-NSString *imageURL = @"http://a.espncdn.com/photo/2013/1219/nba_a_kobe-bryant2_mb_1296x729.jpg";
+NSString *imageURL = @"http://dreamtutor.org/doublie/Example1.png";
 - (void)viewDidLoad
 {
+    
+    [self sendRequest:@"0"];
     [super viewDidLoad];
     
     NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     imageView.image = [UIImage imageWithData:imageData];
     //[self updateLikeCount];
-    [self sendRequest:@"0"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
